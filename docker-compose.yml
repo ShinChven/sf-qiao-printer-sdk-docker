@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sf-qiao-printer-sdk
+    ports:
+      - "4040:4040"
+    restart: always
+    container_name: sf-qiao-printer-sdk
