@@ -21,3 +21,9 @@
 4. sudo docker run -d -p 4040:4040 sfprinter
 
 ```
+
+## 通过docker-compose 运行
+```bash
+docker-compose build --no-cache
+docker-compose up -d
+```
